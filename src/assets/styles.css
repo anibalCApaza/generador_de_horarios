@@ -1,1 +1,58 @@
 @import 'tailwindcss';
+
+:root {
+  --gruvbox-bg: #282828;
+  --gruvbox-fg: #ebdbb2;
+  --gruvbox-red: #cc241d;
+  --gruvbox-green: #98971a;
+  --gruvbox-yellow: #d79921;
+  --gruvbox-blue: #458588;
+  --gruvbox-purple: #b16286;
+  --gruvbox-aqua: #689d6a;
+  --gruvbox-orange: #d65d0e;
+}
+
+body {
+  background-color: var(--gruvbox-bg);
+  color: var(--gruvbox-fg);
+}
+
+.fg-gv-black {
+  color: var(--gruvbox-bg);
+}
+
+.bg-gv-bg {
+  background-color: var(--gruvbox-bg);
+}
+
+.bg-gv-fg {
+  background-color: var(--gruvbox-fg);
+}
+
+.bg-gv-red {
+  background-color: var(--gruvbox-red);
+}
+
+.bg-gv-green {
+  background-color: var(--gruvbox-green);
+}
+
+.bg-gv-yellow {
+  background-color: var(--gruvbox-yellow);
+}
+
+.bg-gv-blue {
+  background-color: var(--gruvbox-blue);
+}
+
+.bg-gv-purple {
+  background-color: var(--gruvbox-purple);
+}
+
+.bg-gv-aqua {
+  background-color: var(--gruvbox-aqua);
+}
+
+.bg-gv-orange {
+  background-color: var(--gruvbox-orange);
+}
