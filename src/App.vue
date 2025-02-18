@@ -4,12 +4,19 @@ import CardFeature from './components/CardFeature.vue';
 </script>
 
 <template>
-  <div class="w-full h-screen p-10 lg:p-20">
+  <header>
+    <nav>
+      <ul class="flex justify-end">
+        <li class="px-2 text-xl lg:text-2xl">Contacto</li>
+      </ul>
+    </nav>
+  </header>
+  <main class="w-full h-screen p-10 lg:p-20">
     <div class="flex flex-col items-center ">
-      <div class="font-bold text-7xl mt-7 mb-2">
+      <div class="font-bold text-6xl mt-7 mb-2 lg:text-8xl">
         DINASTY
       </div>
-      <div class="text-2xl font-medium ">
+      <div class="text-xl font-medium lg:text-3xl">
         Un comodo generador de horarios
       </div>
     </div>
@@ -19,7 +26,7 @@ import CardFeature from './components/CardFeature.vue';
         class="text-2xl font-bold bg-gv-yellow p-3 rounded-2xl hover:bg-amber-200 hover:scale-105 fg-gv-black">GENERAR</button>
     </div>
 
-    <div class="flex flex-row gap-4  flex-wrap lg:flex-nowrap">
+    <div class="grid lg:grid-cols-3 gap-5">
       <CardFeature bg="bg-gv-green">
         <template #icon-img>
           <img src="@/assets/icons/calendar.svg" alt="">
@@ -29,7 +36,7 @@ import CardFeature from './components/CardFeature.vue';
           Horario personalizado
         </template>
         <template #description>
-          Diseña tu horario como lo desees: agrega, edita o elimina materias fácilmente.
+          Diseña tu horario como lo desees: agrega, edita o elimina actividades fácilmente.
         </template>
       </CardFeature>
 
@@ -57,7 +64,7 @@ import CardFeature from './components/CardFeature.vue';
         </template>
       </CardFeature>
     </div>
-  </div>
+  </main>
 </template>
 
 <style scoped></style>
